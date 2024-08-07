@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
     padding: 20px;
@@ -31,9 +31,24 @@ button:hover {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
-    gap: 10px;
+    gap: 20px;
 }
-img {
+.dog-card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+.dog-card img {
     width: 100%;
     border-radius: 8px;
+}
+.dog-card h2 {
+    font-size: 18px;
+    color: #333;
+}
+.dog-card p {
+    font-size: 14px;
+    color: #666;
 }
